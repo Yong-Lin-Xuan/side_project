@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Side project demo</title>
+    <title>與大自然共舞 - Side project demo</title>
     <!-- css -->
     <link rel="stylesheet" href="./stylesheets/all.css">
     <!-- js -->
@@ -17,25 +17,33 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">外部連結</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <img src="./images/151006125511_nature2.png" alt="">
           <div class="modal-body">
-            ...
+            我們發現自己陷入其中難以自拔；我們往往會為了追求短期變化或者解決經濟和政治問題而犧牲自己天然的棲息地。我們的很多數字發明都是為了讓世界更加豐富多彩，但與此同時，這些發明也讓我們越來越疏遠這個世界。儘管如此，科技與自然仍在以非常積極的方式相互交叉，相互影響。<br>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">離開</button>
+            <button type="button" class="btn btn-primary">
+              <a class="nav-link"href="https://www.bbc.com/ukchina/trad/vert_earth/2015/10/151006_vert_earth_nature-technology-friends">前往網站</a>
+            </button>
           </div>
         </div>
       </div>
     </div>
-
   </head>
   <body>
+    <!-- AOS -->
+    <script>
+      AOS.init({
+        duration:2000,
+      });
+    </script>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <a class="navbar-brand ms-4" href="#">Side project demo</a>
+      <a class="navbar-brand ms-4" href="./index.html">Side project demo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,16 +54,16 @@
               <a class="nav-link active" aria-current="page" href="./test.html">test page</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pic">照片</a>
+              <a class="nav-link" href="#pic">地球概論</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#intro">簡介</a>
+              <a class="nav-link" href="#intro">生態系統</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#inform">最新資訊</a>
+              <a class="nav-link" href="#inform">人類的影響</a>
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link" href="#sec">選單</a>
+              <a class="nav-link" href="#sec">現代</a>
             </li>
             <div class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -79,14 +87,12 @@
 
           <div class="carousel-item active" data-bs-interval="3000">
             <div class="shadow-b"></div>
-            <img src="https://picsum.photos/1200/800?random=10" class="d-block w-100 banner" alt="...">
+            <img src="./images/125-1200x800.jpg" class="d-block w-100 banner" alt="...">
             <div class="carousel-caption d-md-block">
               <div class="banner-txt">
-                <h1>金魚都能懂的
-                  <small>這個網頁畫面怎麼切</small>
-                </h1>
-                <h2>圖文滿版區塊</h2>
-                <p>這個畫面在各種樣版網站可說是設計常客<br>金魚切不出來實在是說不過去阿</p>
+                <h1>與大自然共舞</h1>
+                <h2>不斷運行演化的宇宙萬物</h2>
+                <p>在地球上最初的生物是微生物，而她們維持著地球唯一的生物形態的地位直到十億年前多細胞生物的出現才告終結。</p>
                 <button class="btn btn-primary btn-lg ms-auto mb-2 mb-lg-0 me-2" type="button">訂閱</button>
               </div>
             </div>
@@ -94,19 +100,19 @@
 
           <div class="carousel-item" data-bs-interval="3000">
             <div class="shadow-b"></div>
-            <img src="https://picsum.photos/1200/800?random=10" class="d-block w-100 banner" alt="...">
+            <img src="./images/204-1200x800.jpg" class="d-block w-100 banner" alt="...">
             <div class="carousel-caption d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>兩者的分野</h5>
+              <p>植物與動物的分野並不明顯，有部分分類的生命在她們兩者之間。</p>
             </div>
           </div>
 
           <div class="carousel-item">
             <div class="shadow-b"></div>
-            <img src="https://picsum.photos/1200/800?random=4" class="d-block w-100 banner" alt="...">
+            <img src="./images/208-1200x800.jpg" class="d-block w-100 banner" alt="...">
             <div class="carousel-caption d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>地區區系</h5>
+              <p>在眾多植物分類方法中，地區區系依研究目的的不同可以包括在上一個紀元的植物殘餘物形成的化石植物。</p>
             </div>
           </div>
 
@@ -119,76 +125,76 @@
       <div class="shadow-b-r"></div>
       <div class="shadow-w"></div>
     <!-- 文字圖卡 : actionCard.scss -->
-    <div class="title text-white" id="pic"><h1>照片</h1></div>
+    <div class="title text-white" id="pic"><h1>地球概論</h1></div>
     <div class="container wrap justify-content-center mt-2">
       <div class="item">
-        <img src="https://picsum.photos/500/400?random=10" class="img-thumbnail">
+        <img src="./images/296-1200x800.jpg" class="img-thumbnail">
         <div class="txt">
-          <h2>金魚都能懂的這個網頁畫面怎麼切 : 互動圖文卡片</h2>
-          <p>互動圖文卡片是我們在網頁中經常見到的另一種稀飯版，不會切你就遜掉囉</p>
+          <h2>概論 : 地球科學</h2>
+          <p>地球氣候的最顯著特徵為它廣大的兩極地區、兩個較狹窄的溫帶地區、及廣闊的赤道熱帶和亞熱帶地區。</p>
         </div>
       </div>
       <div class="item">
-        <img src="https://picsum.photos/500/400?random=5" class="img-thumbnail">
+        <img src="./images/340-1200x800.jpg" class="img-thumbnail">
         <div class="txt">
-          <h2>金魚都能懂的這個網頁畫面怎麼切 : 互動圖文卡片</h2>
-          <p>互動圖文卡片是我們在網頁中經常見到的另一種稀飯版，不會切你就遜掉囉</p>
+          <h2>概論 : 地球結構</h2>
+          <p>固體地球在地質及生物過程中演化並留下原本情況的痕跡。地殼分為幾個板塊，它們在地質年代間漸漸在表面移動。</p>
         </div>
       </div>
       <div class="item">
-        <img src="https://picsum.photos/500/400?random=1" class="img-thumbnail">
+        <img src="./images/396-1200x800.jpg" class="img-thumbnail">
         <div class="txt">
-          <h2>金魚都能懂的這個網頁畫面怎麼切 : 互動圖文卡片</h2>
-          <p>互動圖文卡片是我們在網頁中經常見到的另一種稀飯版，不會切你就遜掉囉</p>
+          <h2>概論 : 大氣情況</h2>
+          <p>地球的大氣情況因為生命體的出現而產生了巨大轉變，並促成了穩定表面環境的生態平衡。</p>
         </div>
       </div>
     </div>
     
     <!-- 介紹圖卡 : introduceCard.scss -->
-    <div class="title text-white" id="intro"><h1>簡介</h1></div>
+    <div class="title text-white" id="intro"><h1>生態系統</h1></div>
     <div class="container wrap-i justify-content-center">
-      <div class="item-i">
+      <div class="item-i" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <div data-aos="flip-left">
-          <img src="https://picsum.photos/300/300?random=10" alt="">
+          <img src="./images/430-1200x800.jpg" alt="">
           <div class="txt">
-            <h2>CSS可樂</h2>
-            <p>簡單易懂的用字遣詞是拉進與消費者的第一步，如果在產品介紹時使用太多專有名詞，像是「這件衣服原料是由真絲綢化學纖維和致聚酯纖維組成」，可能讓消費者一頭霧水，不想繼續閱讀並直接關掉頁面。</p>
+            <h2>生態系統概念的萌芽</h2>
+            <p>所有形態的生物都會和她們存在的環境及其他生命體互動。在二十世紀此假設引發了「生態系統」的概念，並定義其為在任何情況下的生物與環境間的相互作用。</p>
           </div>
         </div>
       </div>
-      <div class="item-i">
+      <div class="item-i" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <div data-aos="flip-left">
-          <img src="https://picsum.photos/300/300?random=3" alt="">
+          <img src="./images/435-1200x800.jpg" alt="">
           <div class="txt">
-            <h2>CSS可樂</h2>
-            <p>簡單易懂的用字遣詞是拉進與消費者的第一步，如果在產品介紹時使用太多專有名詞，像是「這件衣服原料是由真絲綢化學纖維和致聚酯纖維組成」，可能讓消費者一頭霧水，不想繼續閱讀並直接關掉頁面。</p>
+            <h2>生態系統的組成</h2>
+            <p>生態系統由無生命的和有生命的部分組成，並已一個互相關聯的方式運作。其結構和成分受到眾多相關的環境因素所影響。這些因素的改變可以引起生態系統的轉變。部分較為重要的構成要素有：土壤、大氣層、太陽輻射、水及生物。</p>
           </div>
         </div>
       </div>
-      <div class="item-i">
+      <div class="item-i" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <div data-aos="flip-left">
-          <img src="https://picsum.photos/300/300?random=2" alt="">
+          <img src="./images/447-1200x800.jpg" alt="">
           <div class="txt">
-            <h2>CSS可樂</h2>
-            <p>簡單易懂的用字遣詞是拉進與消費者的第一步，如果在產品介紹時使用太多專有名詞，像是「這件衣服原料是由真絲綢化學纖維和致聚酯纖維組成」，可能讓消費者一頭霧水，不想繼續閱讀並直接關掉頁面。</p>
+            <h2>物種間的連繫</h2>
+            <p>每種生物都與其他形成環境的元素有一個連續的關係。物種在生態系統中與其他物種在食物鏈中互相聯繫及依賴，並在她們及環境之間交換能量與物質。</p>
           </div>
         </div>
       </div>
     </div>
 
     <!-- 內容 -->
-    <div class="title text-white" id="inform"><h1>最新資訊</h1></div>
+    <div class="title text-white" id="inform"><h1>人類的影響</h1></div>
     <section class="container mt-5">
       <div class="card mb-3 border-0"style="overflow-x:clip;">
         <div class="row g-0" data-aos="fade-left">
           <div class="col-md-5">
-            <img src="https://picsum.photos/300/200" class="img-fluid rounded-start w-100 h-100">
+            <img src="./images/521-1200x800.jpg" class="img-fluid rounded-start w-100 h-100">
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <div class="card-body text-center bg-primary action">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">人類影響自然的規模</h5>
+              <p class="card-text">雖然現在人類在全球生物質能只佔0.5%，人類對自然的影響卻相對來說要大得多。因為人為影響規模之大，除非在極端情況下，自然與人工環境的界線均變得含糊。</p>
+              <a class="card-text"href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6"><small class="text-white">了解更多>></small></a>
             </div>
           </div>
         </div>
@@ -196,13 +202,13 @@
       <div class="card mb-3 border-0" data-aos="fade-right">
         <div class="row g-0 flex-row-reverse">
           <div class="col-md-5">
-            <img src="https://picsum.photos/300/200?random=1" class="img-fluid rounded-start w-100">
+            <img src="./images/523-1200x800.jpg" class="img-fluid rounded-start w-100">
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <div class="card-body text-center bg-primary action">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">人類影響自然的各種活動</h5>
+              <p class="card-text">人類利用自然作休閒和經濟活動。取得天然資源作工業用途，是世界經濟系統的一個主要部分。部分活動會被作為生計及休閒目的，例如打獵和捕魚等。農業在前9千年開始發展。</p>
+              <a class="card-text"href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6"><small class="text-white">了解更多>></small></a>
             </div>
           </div>
         </div>
@@ -210,60 +216,61 @@
     </section>
     </div>
     
-    <div class="title" id="sec"><h1>選單</h1></div>
+    <div class="title" id="sec"><h1>現代</h1></div>
     <!-- 選單 -->
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 mb-4">
             <div class="card">
-              <img src="https://images.unsplash.com/photo-1499126167718-c87f5c1387e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <img src="/images/504-1200x800.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-dark" style="height: 10em;">
+                <h5 class="card-title text-white">自然與科技</h5>
+                <p class="card-text text-white">不難想像，經歷了長達幾個世紀的對抗後，自然與科技之間的這場決鬥即將在21世紀打出關鍵一拳。</p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <button type="button" class="btn-primary btn w-100">訂閱</button>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="https://images.unsplash.com/photo-1499126167718-c87f5c1387e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">高速雲計算服務</li>
+                <li class="list-group-item">精確氣候變化數據</li>
+                <li class="list-group-item">記錄野生動物行為的新型設備</li>
               </ul>
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  Launch demo modal
+                了解更多
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./images/583-1200x800.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-dark" style="height: 10em;">
+                <h5 class="card-title text-white">自然靈感</h5>
+                <p class="card-text text-white">以仿生學為例，在這一領域，自然的設計元素和流程會成為新材料、新設備和新工具的模板。</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">蜘蛛網的結構設計的新生兒外用繃帶</li>
+                <li class="list-group-item">效仿病毒開發的一種自我裝配的納米粒子</li>
+                <li class="list-group-item">超高效反射式彩色電子閱讀器屏幕</li>
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  了解更多
               </button>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img src="https://images.unsplash.com/photo-1499126167718-c87f5c1387e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <img src="/images/206-1200x800.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-dark" style="height: 10em;">
+                <h5 class="card-title text-white">綠色城市</h5>
+                <p class="card-text text-white">自然不僅僅是可愛的小狗和壯觀的瀑布，科技還可以幫助人們應對它殘酷的一面。</p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">科技與自然融合的典範</li>
+                <li class="list-group-item">房頂和牆上栽種各種作物</li>
+                <li class="list-group-item">利用多餘的空間栽培藻類生物燃料</li>
+                <li class="list-group-item">通過嫁接生物發光基因</li>
+                <li class="list-group-item">把樹木變身為路燈</li>
               </ul>
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Launch demo modal
+                了解更多
               </button>
             </div>
           </div>
@@ -274,23 +281,19 @@
     <!-- FOOTER -->
     <footer class="bg-dark py-5 mt-5">
       <div class="container">
-        <div class="text-white h1">日式料理<br>Nichishiki ryori</div>
-        <div class="text-white">好吃的日式料理</div>
+        <div class="text-white text-center">
+          <h3>自然（英語：Nature）</h3>
+          <large>自然界、大自然，是指不斷運行演化的宇宙萬物，包括生物界和非生物界兩個相輔相成的體系。</large>
+          <br><br><small>最後，感謝您的瀏覽</small>
+        </div>
       </div>
     </footer>
-    
-    <!-- AOS -->
-    <script>
-      AOS.init({
-        duration:2000, 
-      });
-    </script>
     <!-- 背景 -->
     <script type="text/javascript">
-        var headerBg = document.getElementById('bg')
-        window.addEventListener('scroll',function(){
-            headerBg.style.opacity = window.pageYOffset/1500+''
-        })
+      var headerBg = document.getElementById('bg')
+      window.addEventListener('scroll',function(){
+          headerBg.style.opacity = -0.1+window.pageYOffset/2000+''
+      })
     </script>
   </body>
 </html>
