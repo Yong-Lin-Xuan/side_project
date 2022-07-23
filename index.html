@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Side project demo</title>
     <!-- css -->
     <link rel="stylesheet" href="./stylesheets/all.css">
+    <!-- js -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- aos -->
     <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
     <script src="./node_modules/aos/dist/aos.js"></script>
-<<<<<<< HEAD
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-=======
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -31,19 +30,20 @@
         </div>
       </div>
     </div>
->>>>>>> 49c3236 (彈出視窗)
+
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <a class="navbar-brand ms-4" href="#">Side project demo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./test.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="./test.html">test page</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#pic">照片</a>
@@ -54,9 +54,13 @@
             <li class="nav-item">
               <a class="nav-link" href="#inform">最新資訊</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item me-4">
               <a class="nav-link" href="#sec">選單</a>
             </li>
+            <div class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
           </ul>
         </div>
       </div>
@@ -189,13 +193,8 @@
           </div>
         </div>
       </div>
-<<<<<<< HEAD
       <div class="card mb-3 border-0" data-aos="fade-right">
         <div class="row g-0 flex-row-reverse">
-=======
-      <div class="card mb-3 border-0">
-        <div class="row g-0 flex-row-reverse" data-aos="fade-right">
->>>>>>> 8b72695 (AOS X軸溢出 fixed)
           <div class="col-md-5">
             <img src="https://picsum.photos/300/200?random=1" class="img-fluid rounded-start w-100">
           </div>
@@ -263,7 +262,9 @@
                 <li class="list-group-item">A second item</li>
                 <li class="list-group-item">A third item</li>
               </ul>
-              <button type="button" class="btn-primary btn w-100">訂閱</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+              </button>
             </div>
           </div>
         </div>
