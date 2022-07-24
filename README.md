@@ -18,6 +18,10 @@ https://michalsnik.github.io/aos/
 - Bootstrap :
 https://getbootstrap.com/
 
+## 文字來源
+- https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6
+- https://www.bbc.com/ukchina/trad/vert_earth/2015/10/151006_vert_earth_nature-technology-friends
+
 ## 圖片來源
 - https://picsum.photos/
 
