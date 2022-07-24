@@ -6,8 +6,8 @@
 圖片與文字皆為網路資源<br>
 
 ## Github Pages
-- https://yong-lin-xuan.github.io/index.html
-目前在github pages上AOS的動畫無法呈現(待修正)
+- https://yong-lin-xuan.github.io/index.html<br>
+(#目前在github pages上只能呈現靜態網頁)
 
 ## DEMO影片
 - https://youtu.be/6gOc3yV6zkE
