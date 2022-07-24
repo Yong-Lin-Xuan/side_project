@@ -5,6 +5,10 @@
 動畫使用 AOS - Animate On Scroll Library<br>
 圖片與文字皆為網路資源<br>
 
+## Github Pages
+- https://yong-lin-xuan.github.io/index.html
+目前在github pages上AOS的動畫無法呈現(待修正)
+
 ## DEMO影片
 - https://youtu.be/6gOc3yV6zkE
 
