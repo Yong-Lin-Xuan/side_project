@@ -5,9 +5,12 @@
 動畫使用 AOS - Animate On Scroll Library<br>
 圖片與文字皆為網路資源<br>
 
+此專案目前改用Vue架構繼續開發
+https://github.com/Yong-Lin-Xuan/vue-project
+
 ## Github Pages
 - https://yong-lin-xuan.github.io/index.html<br>
-(#目前在github pages上只能呈現靜態網頁)
+(目前只能呈現靜態網頁)
 
 ## DEMO影片
 - https://youtu.be/6gOc3yV6zkE
